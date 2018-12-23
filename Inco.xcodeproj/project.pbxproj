@@ -15,6 +15,7 @@
 		AF414B39DDA9735C1F887BB1 /* IncoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA484FC76900C19C936 /* IncoTests.swift */; };
 		AF414B4279A31F8957138891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4142B5362676DA6FF396C4 /* Main.storyboard */; };
 		AF414CCE1E200893E213BB2B /* IncoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */; };
+		AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41481FBD38C13F1AFD46E4 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoUITests.swift; sourceTree = "<group>"; };
 		AF414498868B8B0D96C8BF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF4147A5024A77252575BD10 /* Inco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inco.entitlements; sourceTree = "<group>"; };
+		AF41481FBD38C13F1AFD46E4 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		AF414858187039C6BBF827AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF41489F45372B56F7B1BD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF414A5EE2EA035DD1ECE6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				AF414498868B8B0D96C8BF30 /* AppDelegate.swift */,
 				AF4142B5362676DA6FF396C4 /* Main.storyboard */,
 				AF414B3EF22928CE10A05B2B /* ViewController.swift */,
+				AF41481FBD38C13F1AFD46E4 /* APIClient.swift */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			files = (
 				AF4143C7C010A50CA69688ED /* AppDelegate.swift in Sources */,
 				AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */,
+				AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
