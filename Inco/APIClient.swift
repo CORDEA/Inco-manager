@@ -7,7 +7,11 @@ import Alamofire
 import Foundation
 
 class APIClient {
+    static let shared = APIClient()
     private static let baseURL: URL = URL(string: "")!
+
+    private init() {
+    }
 
     func login(user: String, pass: String) -> DataRequest {
         let params: Parameters = [
