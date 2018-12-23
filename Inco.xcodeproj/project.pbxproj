@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		46AF113421CF2ED100835C7D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113321CF2ED100835C7D /* Alamofire.framework */; };
 		46AF113521CF2ED100835C7D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113321CF2ED100835C7D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF41404178F9149D252122D2 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */; };
 		AF4143C7C010A50CA69688ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414498868B8B0D96C8BF30 /* AppDelegate.swift */; };
 		AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B3EF22928CE10A05B2B /* ViewController.swift */; };
 		AF414A763D10CB08AD2666E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41489F45372B56F7B1BD80 /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		AF414A5EE2EA035DD1ECE6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF414A89BE9014448F621D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF414B3EF22928CE10A05B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
 		AF414C53D997E026A7CF7BFE /* IncoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414D91279D2CA2DF0A61F9 /* Inco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414ED7F9CABE5771CCB6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				AF4142B5362676DA6FF396C4 /* Main.storyboard */,
 				AF414B3EF22928CE10A05B2B /* ViewController.swift */,
 				AF41481FBD38C13F1AFD46E4 /* APIClient.swift */,
+				AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				AF4143C7C010A50CA69688ED /* AppDelegate.swift in Sources */,
 				AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */,
 				AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */,
+				AF41404178F9149D252122D2 /* LoginRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
