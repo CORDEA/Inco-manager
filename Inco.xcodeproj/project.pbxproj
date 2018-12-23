@@ -16,6 +16,7 @@
 		AF414B39DDA9735C1F887BB1 /* IncoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA484FC76900C19C936 /* IncoTests.swift */; };
 		AF414B4279A31F8957138891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4142B5362676DA6FF396C4 /* Main.storyboard */; };
 		AF414CCE1E200893E213BB2B /* IncoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */; };
+		AF414DD6C010ADB4ABB89785 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414C4FF7C5EB2AD2AD0153 /* Login.swift */; };
 		AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41481FBD38C13F1AFD46E4 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		AF414A89BE9014448F621D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF414B3EF22928CE10A05B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		AF414C4FF7C5EB2AD2AD0153 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		AF414C53D997E026A7CF7BFE /* IncoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414D91279D2CA2DF0A61F9 /* Inco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414ED7F9CABE5771CCB6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 			path = IncoUITests;
 			sourceTree = "<group>";
 		};
+		AF4146A91510DCEF9A37286B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AF414C4FF7C5EB2AD2AD0153 /* Login.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		AF4147E600333E64B8968A16 /* Inco */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 				AF414B3EF22928CE10A05B2B /* ViewController.swift */,
 				AF41481FBD38C13F1AFD46E4 /* APIClient.swift */,
 				AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */,
+				AF4146A91510DCEF9A37286B /* Response */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -286,6 +297,7 @@
 				AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */,
 				AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */,
 				AF41404178F9149D252122D2 /* LoginRepository.swift in Sources */,
+				AF414DD6C010ADB4ABB89785 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
