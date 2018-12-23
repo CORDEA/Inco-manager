@@ -715,6 +715,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="onClick:" target="XfG-lQ-9wD" id="4PB-Wc-rh2"/>
+                                </connections>
                             </button>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8TA-mc-crJ">
                                 <rect key="frame" x="131" y="192" width="311" height="22"/>
@@ -771,6 +774,10 @@
                             <constraint firstAttribute="trailing" secondItem="dm9-dz-yH8" secondAttribute="trailing" constant="38" id="vGS-ox-8SF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="W9h-Eh-g6L" id="zKG-op-Jwr"/>
+                        <outlet property="usernameTextField" destination="8TA-mc-crJ" id="9ur-zm-EVf"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
