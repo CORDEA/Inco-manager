@@ -15,6 +15,7 @@
 		AF414A763D10CB08AD2666E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41489F45372B56F7B1BD80 /* Assets.xcassets */; };
 		AF414B39DDA9735C1F887BB1 /* IncoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA484FC76900C19C936 /* IncoTests.swift */; };
 		AF414B4279A31F8957138891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4142B5362676DA6FF396C4 /* Main.storyboard */; };
+		AF414C0ECDBA0108F97AF318 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */; };
 		AF414CCE1E200893E213BB2B /* IncoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */; };
 		AF414DD6C010ADB4ABB89785 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414C4FF7C5EB2AD2AD0153 /* Login.swift */; };
 		AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41481FBD38C13F1AFD46E4 /* APIClient.swift */; };
@@ -62,6 +63,7 @@
 		AF41489F45372B56F7B1BD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF414A5EE2EA035DD1ECE6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF414A89BE9014448F621D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AF414B3EF22928CE10A05B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
 		AF414C4FF7C5EB2AD2AD0153 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				AF41481FBD38C13F1AFD46E4 /* APIClient.swift */,
 				AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */,
 				AF4146A91510DCEF9A37286B /* Response */,
+				AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */,
 				AF41404178F9149D252122D2 /* LoginRepository.swift in Sources */,
 				AF414DD6C010ADB4ABB89785 /* Login.swift in Sources */,
+				AF414C0ECDBA0108F97AF318 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
