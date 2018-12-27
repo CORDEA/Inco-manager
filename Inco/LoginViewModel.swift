@@ -6,13 +6,17 @@
 import RxSwift
 
 class LoginViewModel {
-    private let disposeBag = DisposeBag()
-
     var username: String = ""
     var password: String = ""
 
+    private let disposeBag = DisposeBag()
+
     func clickedButton() {
         LoginRepository.shared.login(user: username, pass: password, onCompleted: {
+            guard let token = $0?.token else {
+                return
+            }
+            TokenProvider.refresh(token: token)
         })
     }
 }
