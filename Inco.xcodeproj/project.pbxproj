@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		46AF113421CF2ED100835C7D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113321CF2ED100835C7D /* Alamofire.framework */; };
 		46AF113521CF2ED100835C7D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113321CF2ED100835C7D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		46AF113921D497A100835C7D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113821D497A000835C7D /* RxSwift.framework */; };
+		46AF113A21D497A100835C7D /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113821D497A000835C7D /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		46AF113C21D4987800835C7D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113B21D4987800835C7D /* RxCocoa.framework */; };
+		46AF113D21D4987800835C7D /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113B21D4987800835C7D /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF41404178F9149D252122D2 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */; };
 		AF4143C7C010A50CA69688ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414498868B8B0D96C8BF30 /* AppDelegate.swift */; };
 		AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B3EF22928CE10A05B2B /* ViewController.swift */; };
@@ -45,6 +49,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				46AF113D21D4987800835C7D /* RxCocoa.framework in Embed Frameworks */,
+				46AF113A21D497A100835C7D /* RxSwift.framework in Embed Frameworks */,
 				46AF113521CF2ED100835C7D /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -55,6 +61,8 @@
 /* Begin PBXFileReference section */
 		46AF112621CF2C5500835C7D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		46AF113321CF2ED100835C7D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		46AF113821D497A000835C7D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		46AF113B21D4987800835C7D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
 		AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoUITests.swift; sourceTree = "<group>"; };
 		AF414498868B8B0D96C8BF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF4147A5024A77252575BD10 /* Inco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inco.entitlements; sourceTree = "<group>"; };
@@ -79,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46AF113C21D4987800835C7D /* RxCocoa.framework in Frameworks */,
+				46AF113921D497A100835C7D /* RxSwift.framework in Frameworks */,
 				46AF113421CF2ED100835C7D /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +174,8 @@
 		AF414DF3865CD7A434B61207 = {
 			isa = PBXGroup;
 			children = (
+				46AF113B21D4987800835C7D /* RxCocoa.framework */,
+				46AF113821D497A000835C7D /* RxSwift.framework */,
 				46AF113321CF2ED100835C7D /* Alamofire.framework */,
 				AF414D39F85B6AAE13A13749 /* Products */,
 				AF4147E600333E64B8968A16 /* Inco */,
