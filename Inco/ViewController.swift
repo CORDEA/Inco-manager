@@ -30,6 +30,11 @@ class ViewController: NSViewController {
                     self.viewModel.password = $0
                 })
                 .disposed(by: disposeBag)
+
+        viewModel.navigate
+                .subscribe(onNext: { [unowned self] in
+                })
+                .disposed(by: disposeBag)
     }
 
     override func viewDidLoad() {
