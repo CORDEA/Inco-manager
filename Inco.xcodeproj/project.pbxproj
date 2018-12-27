@@ -17,6 +17,7 @@
 		AF4143C7C010A50CA69688ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414498868B8B0D96C8BF30 /* AppDelegate.swift */; };
 		AF4144E3D182CD1CC2A826DB /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */; };
 		AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B3EF22928CE10A05B2B /* ViewController.swift */; };
+		AF4148C838D2173B46009D14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414022C02CE04BD8A4AA3A /* MainViewController.swift */; };
 		AF414A763D10CB08AD2666E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41489F45372B56F7B1BD80 /* Assets.xcassets */; };
 		AF414B39DDA9735C1F887BB1 /* IncoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA484FC76900C19C936 /* IncoTests.swift */; };
 		AF414B4279A31F8957138891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4142B5362676DA6FF396C4 /* Main.storyboard */; };
@@ -65,6 +66,7 @@
 		46AF113321CF2ED100835C7D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		46AF113821D497A000835C7D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		46AF113B21D4987800835C7D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		AF414022C02CE04BD8A4AA3A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoUITests.swift; sourceTree = "<group>"; };
 		AF414498868B8B0D96C8BF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF4147A5024A77252575BD10 /* Inco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inco.entitlements; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */,
 				AF414C44E6C3254B1B77162D /* ObservableTextField.swift */,
 				AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */,
+				AF414022C02CE04BD8A4AA3A /* MainViewController.swift */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				AF414C0ECDBA0108F97AF318 /* LoginViewModel.swift in Sources */,
 				AF414D5BF6133A52785F8C9C /* ObservableTextField.swift in Sources */,
 				AF4144E3D182CD1CC2A826DB /* TokenProvider.swift in Sources */,
+				AF4148C838D2173B46009D14 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

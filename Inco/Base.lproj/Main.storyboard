@@ -777,11 +777,25 @@
                     <connections>
                         <outlet property="passwordTextField" destination="W9h-Eh-g6L" id="zKG-op-Jwr"/>
                         <outlet property="usernameTextField" destination="8TA-mc-crJ" id="9ur-zm-EVf"/>
+                        <segue destination="ahB-lx-kH5" kind="show" id="Cjf-tA-osr"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="mOM-WZ-V9f">
+            <objects>
+                <viewController id="ahB-lx-kH5" customClass="MainViewController" customModule="Inco" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="xjC-dc-JL1">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="XiL-zz-YWY" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="1090"/>
         </scene>
     </scenes>
 </document>
