@@ -21,6 +21,7 @@
 		AF414B4279A31F8957138891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4142B5362676DA6FF396C4 /* Main.storyboard */; };
 		AF414C0ECDBA0108F97AF318 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */; };
 		AF414CCE1E200893E213BB2B /* IncoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */; };
+		AF414D5BF6133A52785F8C9C /* ObservableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414C44E6C3254B1B77162D /* ObservableTextField.swift */; };
 		AF414DD6C010ADB4ABB89785 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414C4FF7C5EB2AD2AD0153 /* Login.swift */; };
 		AF414EDCF6B67065AE037613 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41481FBD38C13F1AFD46E4 /* APIClient.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,7 @@
 		AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AF414B3EF22928CE10A05B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		AF414C44E6C3254B1B77162D /* ObservableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableTextField.swift; sourceTree = "<group>"; };
 		AF414C4FF7C5EB2AD2AD0153 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		AF414C53D997E026A7CF7BFE /* IncoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414D91279D2CA2DF0A61F9 /* Inco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inco.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */,
 				AF4146A91510DCEF9A37286B /* Response */,
 				AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */,
+				AF414C44E6C3254B1B77162D /* ObservableTextField.swift */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				AF41404178F9149D252122D2 /* LoginRepository.swift in Sources */,
 				AF414DD6C010ADB4ABB89785 /* Login.swift in Sources */,
 				AF414C0ECDBA0108F97AF318 /* LoginViewModel.swift in Sources */,
+				AF414D5BF6133A52785F8C9C /* ObservableTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
