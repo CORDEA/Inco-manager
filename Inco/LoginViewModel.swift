@@ -3,7 +3,16 @@
 // Copyright (c) 2018 Yoshihiro Tanaka. All rights reserved.
 //
 
-import Foundation
+import RxSwift
 
 class LoginViewModel {
+    private let disposeBag = DisposeBag()
+
+    var username: String = ""
+    var password: String = ""
+
+    func clickedButton() {
+        LoginRepository.shared.login(user: username, pass: password, onCompleted: {
+        })
+    }
 }
