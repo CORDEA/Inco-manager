@@ -19,7 +19,11 @@ class ViewController: NSViewController {
     private let passwordChanged = ObservableTextField()
     private let disposeBag = DisposeBag()
 
-    init() {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        usernameTextField.delegate = usernameChanged
+        passwordTextField.delegate = passwordChanged
+
         usernameChanged.onTextChanged
                 .subscribe(onNext: { [unowned self] in
                     self.viewModel.username = $0
@@ -35,12 +39,6 @@ class ViewController: NSViewController {
                 .subscribe(onNext: { [unowned self] in
                 })
                 .disposed(by: disposeBag)
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        usernameTextField.delegate = usernameChanged
-        passwordTextField.delegate = passwordChanged
     }
 
     override var representedObject: Any? {
