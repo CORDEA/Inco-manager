@@ -15,6 +15,7 @@
 		46AF113D21D4987800835C7D /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46AF113B21D4987800835C7D /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF41404178F9149D252122D2 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414BA7B6A95DEC25DAF398 /* LoginRepository.swift */; };
 		AF4143C7C010A50CA69688ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414498868B8B0D96C8BF30 /* AppDelegate.swift */; };
+		AF4144E3D182CD1CC2A826DB /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */; };
 		AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B3EF22928CE10A05B2B /* ViewController.swift */; };
 		AF414A763D10CB08AD2666E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41489F45372B56F7B1BD80 /* Assets.xcassets */; };
 		AF414B39DDA9735C1F887BB1 /* IncoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA484FC76900C19C936 /* IncoTests.swift */; };
@@ -82,6 +83,7 @@
 		AF414ED7F9CABE5771CCB6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF414F734E8126A84348CFE1 /* IncoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414FA484FC76900C19C936 /* IncoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoTests.swift; sourceTree = "<group>"; };
+		AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				AF4146A91510DCEF9A37286B /* Response */,
 				AF414B2BD449BA4B2F92DF0E /* LoginViewModel.swift */,
 				AF414C44E6C3254B1B77162D /* ObservableTextField.swift */,
+				AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				AF414DD6C010ADB4ABB89785 /* Login.swift in Sources */,
 				AF414C0ECDBA0108F97AF318 /* LoginViewModel.swift in Sources */,
 				AF414D5BF6133A52785F8C9C /* ObservableTextField.swift in Sources */,
+				AF4144E3D182CD1CC2A826DB /* TokenProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
