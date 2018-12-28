@@ -37,8 +37,7 @@ class ViewController: NSViewController {
 
         viewModel.navigate
                 .subscribe(onNext: { [unowned self] in
-                    let vc = self.storyboard!.instantiateController(withIdentifier: "Main") as! NSViewController
-                    self.presentAsModalWindow(vc)
+                    self.dismiss(nil)
                 })
                 .disposed(by: disposeBag)
     }
