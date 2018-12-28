@@ -8,8 +8,8 @@ import Foundation
 class TokenProvider {
     private static let tokenDefaultsKey = "token"
 
-    static func get() -> String {
-        return UserDefaults.standard.string(forKey: tokenDefaultsKey)!
+    static func get() -> String? {
+        return UserDefaults.standard.string(forKey: tokenDefaultsKey)
     }
 
     static func refresh(token: String) {
