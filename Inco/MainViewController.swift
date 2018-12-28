@@ -4,6 +4,25 @@
 //
 
 import Cocoa
+import RxSwift
 
 class MainViewController: NSViewController {
+    private let viewModel = MainViewModel()
+    private let disposeBag = DisposeBag()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        viewModel.navigate
+                .subscribe(onNext: { [unowned self] in
+                    let vc = self.storyboard!.instantiateController(withIdentifier: "Login") as! NSViewController
+                    self.presentAsSheet(vc)
+                })
+                .disposed(by: disposeBag)
+    }
+
+    override func viewDidAppear() {
+        super.viewDidAppear()
+        viewModel.start()
+    }
 }
