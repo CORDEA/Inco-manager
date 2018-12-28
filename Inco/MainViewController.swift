@@ -3,7 +3,7 @@
 // Copyright (c) 2018 Yoshihiro Tanaka. All rights reserved.
 //
 
-import Foundation
+import Cocoa
 
-class MainViewController {
+class MainViewController: NSViewController {
 }
