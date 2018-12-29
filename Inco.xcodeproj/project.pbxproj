@@ -17,6 +17,7 @@
 		AF4143C7C010A50CA69688ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414498868B8B0D96C8BF30 /* AppDelegate.swift */; };
 		AF4144E3D182CD1CC2A826DB /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */; };
 		AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B3EF22928CE10A05B2B /* ViewController.swift */; };
+		AF4145D36057E2DE61C9E947 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414505100B5B6425B11E18 /* History.swift */; };
 		AF4147B183CE261FBD837144 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41426E808791B85BD35BB2 /* MainViewModel.swift */; };
 		AF4148C838D2173B46009D14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414022C02CE04BD8A4AA3A /* MainViewController.swift */; };
 		AF414A763D10CB08AD2666E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41489F45372B56F7B1BD80 /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 		AF41426E808791B85BD35BB2 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		AF4143DB6F7ABDC586DB29D0 /* IncoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoUITests.swift; sourceTree = "<group>"; };
 		AF414498868B8B0D96C8BF30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF414505100B5B6425B11E18 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		AF4147A5024A77252575BD10 /* Inco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Inco.entitlements; sourceTree = "<group>"; };
 		AF41481FBD38C13F1AFD46E4 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		AF414858187039C6BBF827AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				AF414C4FF7C5EB2AD2AD0153 /* Login.swift */,
+				AF414505100B5B6425B11E18 /* History.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				AF4144E3D182CD1CC2A826DB /* TokenProvider.swift in Sources */,
 				AF4148C838D2173B46009D14 /* MainViewController.swift in Sources */,
 				AF4147B183CE261FBD837144 /* MainViewModel.swift in Sources */,
+				AF4145D36057E2DE61C9E947 /* History.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
