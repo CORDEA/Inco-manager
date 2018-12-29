@@ -10,19 +10,24 @@ class MainViewController: NSViewController {
     private let viewModel = MainViewModel()
     private let disposeBag = DisposeBag()
 
+    private let didAppear: PublishSubject<Void> = PublishSubject()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         viewModel.navigate
+                .sample(didAppear)
                 .subscribe(onNext: { [unowned self] in
                     let vc = self.storyboard!.instantiateController(withIdentifier: "Login") as! NSViewController
                     self.presentAsSheet(vc)
                 })
                 .disposed(by: disposeBag)
+
+        viewModel.start()
     }
 
     override func viewDidAppear() {
         super.viewDidAppear()
-        viewModel.start()
+        didAppear.onNext(())
     }
 }
