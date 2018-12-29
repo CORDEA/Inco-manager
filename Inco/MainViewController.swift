@@ -14,6 +14,8 @@ class MainViewController: NSViewController, NSTableViewDataSource {
 
     private let didAppear: PublishSubject<Void> = PublishSubject()
 
+    private var histories: [History] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +24,12 @@ class MainViewController: NSViewController, NSTableViewDataSource {
                 .subscribe(onNext: { [unowned self] in
                     let vc = self.storyboard!.instantiateController(withIdentifier: "Login") as! NSViewController
                     self.presentAsSheet(vc)
+                })
+                .disposed(by: disposeBag)
+        viewModel.data
+                .subscribe(onNext: { [unowned self] in
+                    self.histories = $0
+                    self.tableView.reloadData()
                 })
                 .disposed(by: disposeBag)
 
@@ -35,10 +43,10 @@ class MainViewController: NSViewController, NSTableViewDataSource {
     }
 
     func numberOfRows(in tableView: NSTableView) -> Int {
-        return 10
+        return histories.count
     }
 
     func tableView(_ tableView: NSTableView, objectValueFor tableColumn: NSTableColumn?, row: Int) -> Any? {
-        return ""
+        return histories[row].url
     }
 }

@@ -8,10 +8,14 @@ import RxSwift
 class MainViewModel {
     private let _navigate: PublishSubject<Void>
     let navigate: Observable<Void>
+    private let _data: PublishSubject<[History]>
+    let data: Observable<[History]>
 
     init() {
         _navigate = PublishSubject()
         navigate = _navigate
+        _data = PublishSubject()
+        data = _data
     }
 
     func start() {
@@ -19,6 +23,8 @@ class MainViewModel {
             _navigate.onNext(())
             return
         }
-        // TODO
+        MainRepository.shared.getHistories(onCompleted: { [unowned self] in
+            self._data.onNext($0)
+        })
     }
 }
