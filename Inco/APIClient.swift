@@ -20,4 +20,11 @@ class APIClient {
         ]
         return Alamofire.request(APIClient.baseURL.appendingPathComponent("/login"), method: .get, parameters: params)
     }
+
+    func getHistories() -> DataRequest {
+        let token = TokenProvider.get()!
+        return request(APIClient.baseURL.appendingPathComponent("/histories"), headers: [
+            "Authorization": "Bearer " + token
+        ])
+    }
 }
