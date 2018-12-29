@@ -827,6 +827,9 @@
                                                                         <font key="font" metaFont="system"/>
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                        <connections>
+                                                                            <binding destination="hdR-3b-rdH" name="value" keyPath="objectValue" id="Y9O-op-cSZ"/>
+                                                                        </connections>
                                                                     </textFieldCell>
                                                                 </textField>
                                                             </subviews>
@@ -862,6 +865,9 @@
                             <constraint firstAttribute="trailing" secondItem="SUY-1L-dPE" secondAttribute="trailing" id="IPs-57-iuk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="N5a-ic-IZZ" id="1dv-GP-UJ4"/>
+                    </connections>
                 </viewController>
                 <customObject id="IS0-cr-9gb" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

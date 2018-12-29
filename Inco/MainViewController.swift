@@ -6,7 +6,9 @@
 import Cocoa
 import RxSwift
 
-class MainViewController: NSViewController {
+class MainViewController: NSViewController, NSTableViewDataSource {
+    @IBOutlet weak var tableView: NSTableView!
+
     private let viewModel = MainViewModel()
     private let disposeBag = DisposeBag()
 
@@ -23,11 +25,20 @@ class MainViewController: NSViewController {
                 })
                 .disposed(by: disposeBag)
 
+        tableView.dataSource = self
         viewModel.start()
     }
 
     override func viewDidAppear() {
         super.viewDidAppear()
         didAppear.onNext(())
+    }
+
+    func numberOfRows(in tableView: NSTableView) -> Int {
+        return 10
+    }
+
+    func tableView(_ tableView: NSTableView, objectValueFor tableColumn: NSTableColumn?, row: Int) -> Any? {
+        return ""
     }
 }
