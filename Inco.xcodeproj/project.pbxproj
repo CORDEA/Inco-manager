@@ -19,6 +19,7 @@
 		AF4145BA653EA4D7594F3927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414B3EF22928CE10A05B2B /* ViewController.swift */; };
 		AF4145D36057E2DE61C9E947 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414505100B5B6425B11E18 /* History.swift */; };
 		AF4147B183CE261FBD837144 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41426E808791B85BD35BB2 /* MainViewModel.swift */; };
+		AF414831DA0676F6209CA0F3 /* MainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FD3FA32CE393A6CDBA5 /* MainRepository.swift */; };
 		AF4148C838D2173B46009D14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414022C02CE04BD8A4AA3A /* MainViewController.swift */; };
 		AF414A763D10CB08AD2666E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41489F45372B56F7B1BD80 /* Assets.xcassets */; };
 		AF414B39DDA9735C1F887BB1 /* IncoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF414FA484FC76900C19C936 /* IncoTests.swift */; };
@@ -90,6 +91,7 @@
 		AF414F734E8126A84348CFE1 /* IncoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF414FA484FC76900C19C936 /* IncoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncoTests.swift; sourceTree = "<group>"; };
 		AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
+		AF414FD3FA32CE393A6CDBA5 /* MainRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				AF414FA97AADDE8C7D894C70 /* TokenProvider.swift */,
 				AF414022C02CE04BD8A4AA3A /* MainViewController.swift */,
 				AF41426E808791B85BD35BB2 /* MainViewModel.swift */,
+				AF414FD3FA32CE393A6CDBA5 /* MainRepository.swift */,
 			);
 			path = Inco;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				AF4148C838D2173B46009D14 /* MainViewController.swift in Sources */,
 				AF4147B183CE261FBD837144 /* MainViewModel.swift in Sources */,
 				AF4145D36057E2DE61C9E947 /* History.swift in Sources */,
+				AF414831DA0676F6209CA0F3 /* MainRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
