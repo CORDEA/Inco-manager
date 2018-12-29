@@ -16,8 +16,7 @@ class ObservableTextField: NSObject, NSTextFieldDelegate {
         super.init()
     }
 
-    func textField(_ textField: NSTextField, textView: NSTextView, shouldSelectCandidateAt index: Int) -> Bool {
-        _onTextChanged.onNext(textField.stringValue)
-        return true
+    func controlTextDidChange(_ obj: Notification) {
+        _onTextChanged.onNext((obj.object as! NSTextField).stringValue)
     }
 }
